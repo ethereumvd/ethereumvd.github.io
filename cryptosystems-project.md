@@ -38,9 +38,9 @@ Diffie–Hellman key exchange is a mathematical method of securely exchanging cr
 
 In the Diffie-Hellman key exchange, both parties agree on a large prime number and a base. Each party then selects a private key and calculates a public key based on the agreed prime and base. The public keys are exchanged, and the shared secret key is independently computed using the other party's public key and one's own private key. 
 
-For example, suppose Alice and Bob want to have a shared secret between them. They publicly choose a prime number $p = 23$ and it's base ( a primitive root ) $g = 5$.
+For example, suppose Alice and Bob want to have a shared secret between them. They publicly choose a prime number ``p = 23`` and it's base ( a primitive root ) $ g = 5 $.
 
-Alice chooses a randomly generated secret integer $a$ such that $1 \leq a < p$. Let us take $a=3$ for this example. She sends Bob the value of $A = g^a \mod{p} = 10$.
+Alice chooses a randomly generated secret integer $a$ such that $1 \leq a < p$. Let us take $a=3$ for this example. She sends Bob the value of $$A = g^a \mod{p} = 10$$.
 
 Bob chooses a randomly generated secret integer $b$ such that $1 \leq b < p$. Again suppose $b=4$ for this example. He sends Alice the value of $B = g^b \mod{p} = 4$.
 
