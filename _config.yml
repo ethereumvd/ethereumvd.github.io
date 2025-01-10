@@ -2,17 +2,15 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-title: Vedant's GitHub Page
+title: EthereumVD
 description: Personal website showcasing projects, blogs, and more
 
-# Navigation Links
 header_links:
   - title: About Me
     url: /
   - title: Projects
-    url: /cryptosystems-project
-  - title: Contact Me
-    url: /#contact
+    url: /projects
   - title: Blog
-    url: /Session_Reports/
-
+    url: /blog
+head:
+  - "<script type=\"text/javascript\" async src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML\"></script>"
