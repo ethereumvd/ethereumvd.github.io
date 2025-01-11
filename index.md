@@ -4,7 +4,7 @@
 Hi! I am **Vedant**, a sophomore at **IIT (ISM) Dhanbad** with a deep interest in mathematics and computer science.
 
 ### Current Interests:
-- Fourier Transforms and Signal Processing
+- Fourier Analysis and Signal Processing
 - Cryptosystems and Cybersecurity  
 - Capture The Flag (CTF) Challenges  
 
